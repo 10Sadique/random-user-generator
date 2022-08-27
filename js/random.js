@@ -9,7 +9,7 @@ const displayUsers = (users) => {
     const userContainer = document.getElementById('user-container')
 
     for (const user of users) {
-        console.log(user)
+        // console.log(user)
         const userDiv = document.createElement('div')
         userDiv.innerHTML = `
             <div class="h-full bg-zinc-900 rounded-lg shadow-lg">

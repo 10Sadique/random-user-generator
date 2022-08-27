@@ -6,12 +6,12 @@
         <script src="https://cdn.tailwindcss.com"></script>
         <title>Random User Generator</title>
     </head>
-    <body class="text-white bg-zinc-900 p-10">
+    <body class="text-white bg-zinc-900">
         <header class="mb-10">
-            <h1 class="text-3xl font-bold">Random User Generator</h1>
+            <h1 class="text-3xl font-bold m-10">Random User Generator</h1>
         </header>
 
-        <main>
+        <main class="m-5 md:m-10">
             <section class="mb-5">
                 <button
                     onclick="loadUsers()"
@@ -23,7 +23,7 @@
 
             <section
                 id="user-container"
-                class="mb-10 p-5 bg-zinc-800 rounded-lg shadow-lg grid grid-cols-4 gap-5"
+                class="mb-10 p-4 md:p-5 bg-zinc-800 rounded-lg shadow-lg grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"
             ></section>
         </main>
 
