@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Random User Generator</title>
+    </head>
+    <body class="text-white bg-zinc-900 p-10">
+        <header class="mb-10">
+            <h1 class="text-3xl font-bold">Random User Generator</h1>
+        </header>
+
+        <main>
+            <section class="mb-5">
+                <button
+                    onclick="loadUsers()"
+                    class="py-2 px-5 bg-teal-800 rounded-lg shadow-lg shadow-teal-800/40 hover:bg-teal-700 transition duration-300"
+                >
+                    Generate New User
+                </button>
+            </section>
+
+            <section
+                id="user-container"
+                class="mb-10 p-5 bg-zinc-800 rounded-lg shadow-lg grid grid-cols-4 gap-5"
+            ></section>
+        </main>
+
+        <script src="js/random.js"></script>
+    </body>
+</html>
